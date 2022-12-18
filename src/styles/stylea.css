@@ -9,11 +9,16 @@ html{
     background-color: aqua;
     position: relative;
     animation-name: changeColor;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
 }
+@keyframes changeColor{
+    0%{background-color: aquamarine;left: 0px;top: 0px;}
+    0%{background-color: rgb(2, 249, 163);left: 0px;top: 0px;}
+    0%{background-color: rgb(42, 135, 102);left: 0px;top: 0px;}
+}    
 .row{
     display: flex;
     justify-content: space-between;
@@ -23,10 +28,26 @@ html{
 }
 .nav_container{
     width: 500px;
+
+}
+.a{
+   text-decoration: none;
+   text-shadow: none;
+   color: #030303;
    
 }
-.list_container{
-    list-style: none;
+.pink{
+    width: 50%;
+}
+.retro{
+    width: 50%;
+}
+.contact{
+    width: 50%;
+}
+.list_container {
+    list-style: bold;
+    color: #030303;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,6 +55,10 @@ html{
 .list_container li{
     color: #0f5331
     border-bottom:1px solid 
+}
+.centerd{
+    text-decoration: #0f5331;
+    text-shadow: #bb1b1b;
 }
 .select{
     width: 102;
