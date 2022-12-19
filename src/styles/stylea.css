@@ -1,24 +1,7 @@
 @import url(./fonts.css);
 html{
     scroll-behavior: smooth;
-}
-.animation {
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    background-color: aqua;
-    position: relative;
-    animation-name: changeColor;
-    animation-duration: 1s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-}
-@keyframes changeColor{
-    0%{background-color: aquamarine;left: 0px;top: 0px;}
-    0%{background-color: rgb(2, 249, 163);left: 0px;top: 0px;}
-    0%{background-color: rgb(42, 135, 102);left: 0px;top: 0px;}
-}    
+}  
 .row{
     display: flex;
     justify-content: space-between;
@@ -33,6 +16,9 @@ html{
  }
  .logo_font{
   font-family: "logo_Font" !important;
+ }
+ .flowers_font{
+  font-family: "flowers_font" !important;
  }
 .nav_container{
     width: 500px;

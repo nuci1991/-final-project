@@ -1,7 +1,4 @@
-@font-face {
-    font-family:"Bangersfont" ;
-    src: url(../fonts/Bangers-Regular.ttf);
-}
+
 @font-face {
     font-family: "ALK Rounded Mtav Med";
     src: url(../fonts/alk-rounded-mtav-med-webfont.ttf);
@@ -10,4 +7,8 @@
 @font-face {
     font-family: "logo_Font";
     src: url(../fonts/dm-zviadi.ttf);
+}
+@font-face {
+    font-family: "flowers_font";
+    src: url(../fonts/alk-rounded-mtav-med-webfont.ttf);
 }
