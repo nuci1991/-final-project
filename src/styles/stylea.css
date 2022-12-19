@@ -127,33 +127,14 @@ html{
     margin:1em;
   }
   * {box-sizing: border-box}
-
-  
-  .fa {
-    padding: 40px;
-    font-size: 20px;
-    width: 30px;
-   
-    text-decoration: none;
-    border-radius: 50%;
-  }
-  
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: o.7;
-  }
-  
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
-  .fa-facebook {
-    background: #0f50de;
-    color: white;
-  }
    .active{
     color:rgb(231, 156, 18);
     border-bottom:1px solid;
    }
    .bg-primary{
 background-color: rgb(255, 255, 255) !important;
+   }
+   .shadow{
+    text-shadow: none !important;
+    box-shadow: none !important;
    }
