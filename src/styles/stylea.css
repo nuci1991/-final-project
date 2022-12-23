@@ -127,3 +127,6 @@ background-color: rgb(255, 255, 255) !important;
     text-shadow: none !important;
     box-shadow: none !important;
    }
+   .container-fluid{
+    color: #030303 !important;
+   }
